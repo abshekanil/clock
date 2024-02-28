@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.innerclock{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url(https://png.pngtree.com/png-clipart/20230114/original/pngtree-wall-clock-face-no-hands-png-image_8908689.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.hand{
+    width: 75px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: black;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@media only screen and (max-width:1464px) and (min-width:1349px)
+{
+    .hand{
+        left: 44.5%;
+    }
+}
+@media only screen and (max-width:1351px) and (min-width:1249px)
+{
+    .hand{
+        left: 44%;
+    }
+}
+@media only screen and (max-width:1251px) and (min-width:1149px)
+{
+    .hand{
+        left: 43.5%;
+    }
+}
+@media only screen and (max-width:1151px) and (min-width:1049px)
+{
+    .hand{
+        left: 43%;
+    }
+}
+@media only screen and (max-width:1051px) and (min-width:949px)
+{
+    .hand{
+        left: 42.5%;
+    }
+}
+@media only screen and (max-width:951px) and (min-width:851px)
+{
+    .hand{
+        left: 41.5%;
+    }
+}
+@media only screen and (max-width:851px) and (min-width:751px)
+{
+    .hand{
+        left: 40.5%;
+    }
+}
+@media only screen and (max-width:751px) and (min-width:651px)
+{
+    .hand{
+        left: 39%;
+    }
+}
+@media only screen and (max-width:651px) and (min-width:551px)
+{
+    .hand{
+        left: 37.5%;
+    }
+}
+@media only screen and (max-width:551px) and (min-width:451px)
+{
+    .hand{
+        left: 35%;
+    }
+}
+@media only screen and (max-width:451px) and (min-width:351px)
+{
+    .hand{
+        left: 31%;
+    }
+}
+@media only screen and (max-width:351px) and (min-width:251px)
+{
+    .hand{
+        left: 31%;
+    }
+}
+@media only screen and (max-width:361px) and (min-width:359px)
+{
+    .hand{
+        left: 30%;
+    }
+}
+@media only screen and (max-width:300px) and (min-width:279px)
+{
+    .hand{
+        left: 23%;
+    }
+}
+@media only screen and (max-width:280px) and (min-width:200px)
+{
+    .hand{
+        left: 20%;
+    }
+}
+
+
+
+
